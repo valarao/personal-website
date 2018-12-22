@@ -1,0 +1,136 @@
+/* --------------------------------------------- */
+/* SETUP */
+/* --------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+/* --------------------------------------------- */
+/* SECTION BREAKS */
+/* --------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/* --------------------------------------------- */
+/* COMMON */
+/* --------------------------------------------- */
+
+h1 {
+    font-weight: 600;
+    font-size: 300%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 200%
+}
+
+
+/* --------------------------------------------- */
+/* HEADER */
+/* --------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(235, 235, 235));
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.name-box {
+    position: relative;
+    top: 100px;
+}
+
+.name-box h2 {
+    margin-bottom: 30px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline-block;
+    font-size: 500%;
+    margin: 20px 100px;
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: rgb(172, 171, 171);
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+    
+}
+
+.social-links li a:link,
+.social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: rgb(172, 171, 171);
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s, font-size 0.5s;
+    
+}
+
+.social-links li a:active,
+.social-links li a:hover {
+    font-size: 130%;
+    color: rgb(211, 211, 211);
+
+}
+
+.under-construction {
+    background-color: rgb(167, 167, 167);
+    color: #fff;
+    margin-top: 250px;
+    position: relative;
+    border: 2px solid rgba(167, 167, 167, 0);
+    border-radius: 5%;
+    box-shadow: 0 2px 2px rgb(201, 201, 201);
+    height: 100px;
+    width: 500px;
+    padding: 20px;
+}
+
+.element h2 {
+
+}
+
+.work-xp {}
